@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Fighter</title>
+    <link rel="shortcut icon" href="./img/arcade.png" type="favicon">
+    <link rel="stylesheet" href="../practica_marzo/style.css">
+
+</head>
+<body>
+
+    <h1> TO LIVE IS TO FIGHT TO FIGHT IS TO LIVE</h1>
+
+    <table>
+        <tr>
+            <td colspan="4" class="cabecera">
+                <span> Street Fighter</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="Nombre">Ken</p>
+                <img class="FIGHTER" src="./img/ken.png" alt="KEN">
+            </td>
+            <td>
+                <p class="Nombre">Chun Li</p>
+                <img class="FIGHTER" src="./img/ChunLi.png" alt="ChunLi">
+            </td>
+            <td>
+                <p class="Nombre">Zangief</p>
+                <img class="FIGHTER" src="./img/Zangief.png" alt="Zangief">
+            </td>
+
+            <td>
+                <p class="Nombre">Dhalsin</p>
+                <img class="FIGHTER" src="./img/Dhalsim.png" alt="Dhalsim">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p class="Nombre">RYU</p>
+                <img class="FIGHTER" src="./img/Ryu.png" alt="RYU">
+            </td>
+            <td>
+                <p class="Nombre">E HONDA</p>
+                <img class="FIGHTER" src="./img/EHonda.png" alt="EHONDA">
+            </td>
+            <td>
+                <p class="Nombre">Blanka</p>
+                <img class="FIGHTER" src="./img/Blanka.png" alt="Blanka">
+            </td>
+            <td>
+                <p class="Nombre">Guille</p>
+                <img class="FIGHTER" src="./img/Guille.png" alt="Guille">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="Nombre">T HAWK</p>
+                <img class="FIGHTER" src="./img/THawk.png" alt="THawk">
+            </td>
+            <td><p class="Nombre">Feilong</p>
+                <img class="FIGHTER" src="./img/Feilong.png" alt="Feilong"></td>
+            <td><p class="Nombre">DeeJay</p>
+                <img class="FIGHTER" src="./img/DeeJay.png" alt="DeeJay"></td>
+            <td>
+                <p class="Nombre">Cammy</p>
+                <img class="FIGHTER" src="./img/Cammy.png" alt="Cammy">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="Nombre">Balrog</p>
+                <img class="FIGHTER" src="./img/Balrog.png" alt="Balrog"></td>
+            </td>
+            <td>
+                <p class="Nombre">Vega</p>
+                <img class="FIGHTER" src="./img/Vega.png" alt="Vega"></td>
+            </td>
+            <td>
+                <p class="Nombre">Sagat</p>
+                <img class="FIGHTER" src="./img/Sagat.png" alt="Sagat">
+            </td>
+            <td>
+                <p class="Nombre">M Bison</p>
+                <img class="FIGHTER" src="./img/MBison.png" alt="MBison"></td>
+            </td>
+        </tr>
+    </table>
+
+    <h2> FORMULARIO DE INSCRIPCION PARA JUGAR A STREET FIGHTER </h2>
+
+    <div id="formulario">
+        <fieldset class="dpersonales">
+            <div class="elemento">
+                <legend id="legends">DATOS PERSONALES</legend>
+                    <label for="nombre">Nombre: </label>
+                        <input  type="text" name="nombre" id="nombre" required>
+            </div>
+            <div class="elemento">
+                <label for="nombre">Apellidos: </label>
+                    <input  type="text" name="nombre" required>
+            </div>            
+            <div class="elemento">
+                <label for="Direccion">Dirección Postal</label>
+                        <input type="text" name="Calle" placeholder="Calle">
+                        <input  type="number" name="numero" placeholder="Nº">
+                        <input  type="text" name="Piso" placeholder="Piso">
+                        <input  type="number" name="Codigo Postal" placeholder="Cod Postal">
+                        <input  type="text" name="Ciudad" placeholder="Ciudad">
+                </div>
+            <div class="elemento">
+                <label for="Nick">Nick: </label>
+                    <input  type="text" name="nickname" id="nick" required>
+            </div>
+            <div class="elemento">
+                <label for="email">Correo Electronico: </label>
+                    <input  type="email" name="email" id="email" required>
+            </div>
+        </fieldset>
+            <fieldset class="genero">
+                <legend id="legends">SEXO USUARIO</legend>
+                <label for="ghombre">
+                    <input  id="ghombre" type="radio" name="sexo" value="HOMBRE">Hombre
+                </label>
+                <label for="gmujer">
+                    <input  type="radio" name="sexo" value="MUJER">Mujer
+                </label>
+                <label for="gotro">
+                    <input  type="radio" name="sexo" value="Otro">Prefiero No Decir
+                </label>
+            </fieldset>
+
+            <div class="elemento">
+                <label for="fnacimiento">Fecha de nacimiento: </label>
+                    <input type="date" name="fnacimiento" id="fnacimineto" >
+            </div>
+
+            <fieldset>
+            <legend id="legends">PERSONAJES</legend>
+                Selecciona el personaje: <input type="text" name="nombre" placeholder="Indica el nombre del personaje">
+            </fieldset>
+
+            <fieldset>
+                <legend id="legends"> COMENTARIOS</legend>
+                    <textarea id="comentario_form" placeholder="Escribe aquí un comentario  sobre Street fighter..." maxlength="32"></textarea>
+            </fieldset>
+
+            <div class="boton">
+                <input id="boton" type="submit" value="Enviar">
+                <input id="boton" type="reset" value="Borrar" id="boton">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
