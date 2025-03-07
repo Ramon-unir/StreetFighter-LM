@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Street Fighter;
+    src: url('./font/street.otf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url('./img/fondo2.jpg');
+    background-size: cover;
+
+}
+
+h1 {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+    font-family: Street Fighter;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    margin: auto;
+    background-color: black;
+
+}
+
+.cabecera {
+    background-image: url('./img/fondocabecera.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Street Fighter;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+.Nombre {
+    font-family: Street Fighter;
+    font-size: 18px;
+    text-align: center;
+    color: darkorange;
+}
+
+tr{
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    background-color: black;
+}
+
+h2 {
+    font-family: Street Fighter;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+
+#formulario {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 1100px;
+    margin: auto;
+    
+}
+
+#legends{
+    font-family: Street Fighter;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+#formulario .elemento label {
+    display: block;
+    color: white;
+    margin: 10px 0px;
+    
+}
+
+#formulario .genero label {
+    display: block;
+    color: white;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    margin: 10px 0px;
+}
+
+
+#boton {
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    font-family: Street Fighter;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 30px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+#comentario_form {
+    width: 560px;
+    height: 200px;
+}
